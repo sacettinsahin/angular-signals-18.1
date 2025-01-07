@@ -1,0 +1,28 @@
+@if (isAddPopup) {
+<app-new-task
+  (close)="closePopup($event)"
+  (add)="handleNewTask($event)"
+></app-new-task>
+}
+
+<section id="tasks">
+  <header>
+    <h2>{{ listOwner().name }}'s Tasks List</h2>
+
+    <menu>
+      <button (click)="onStartAddTask()">Add Task</button>
+    </menu>
+  </header>
+
+  <ul>
+    @if(taskList().length > 0){ @for (task of taskList(); track task.id) {
+    <app-task
+      [task]="task"
+      (completeTask)="handleCompletedTask($event)"
+    ></app-task>
+    } }
+    @else() {
+      <li>This user has not any task yet.</li>
+    }
+  </ul>
+</section>
