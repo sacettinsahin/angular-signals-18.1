@@ -48,19 +48,10 @@ The app uses **Angular Signals** to manage the state efficiently.
 
 ## 🖼️ Screenshots
 
-*Add your project screenshots here for better visualization.*
 
-```markdown
-![App Screenshot](src/assets/readme/img1.png)
-```
-
-```markdown
-![App Screenshot](src/assets/readme/img2.png)
-```
-
-```markdown
-![App Screenshot](src/assets/readme/img3.png)
-```
+![App Screenshot 1](./src/assets/readme/img1.png)
+![App Screenshot 2](./src/assets/readme/img2.png)
+![App Screenshot 3](./src/assets/readme/img3.png)
 
 ---
 
