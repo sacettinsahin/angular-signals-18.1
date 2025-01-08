@@ -1,27 +1,69 @@
-# V18
+# 📝 Angular Signal-Based Todo App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
-## Development server
+## 🚀 Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Follow the steps below to set up and run this project on your local machine:
 
-## Code scaffolding
+1. **Clone the repository** to your local machine.
+2. Run the following command to install the required dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   ng serve
+   ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📚 Project Description
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This project consists of a **signal-based Todo App** built with Angular. Users can:
 
-## Running unit tests
+- Select a person from the list.
+- Assign tasks to the relevant person.
+- Add new tasks dynamically.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The app uses **Angular Signals** to manage the state efficiently.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🎯 Features
 
-## Further help
+- 🧩 **Signal-based state management** for optimized performance.
+- 📋 **Task assignment functionality** to manage tasks for different users.
+- ➕ **Add new tasks** easily through the user interface.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 💻 Technologies Used
+
+- Angular CLI 18.2.12
+- TypeScript
+- HTML & CSS
+
+---
+
+## 🖼️ Screenshots
+
+*Add your project screenshots here for better visualization.*
+
+```markdown
+![App Screenshot](src/assets/readme/img1.png)
+```
+
+```markdown
+![App Screenshot](src/assets/readme/img2.png)
+```
+
+```markdown
+![App Screenshot](src/assets/readme/img3.png)
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
