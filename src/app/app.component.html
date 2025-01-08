@@ -1,0 +1,25 @@
+<app-header />
+<main>
+  <!-- users-->
+  <ul id="users">
+    @for (user of users(); track user.id) {
+    <li>
+      <app-user
+        [user]="user"
+        [selectedUserId]="selectedUserId()"
+        (onSelectUser)="onUserSelected($event)"
+      />
+    </li>
+    }
+  </ul>
+
+  <!-- tasks-->
+  <ul id="tasks">
+    <app-tasks
+      [taskList]="selectedUsersTask()"
+      [listOwner]="selectedUser()"
+      (removeTask)="handleRemoveTask($event)"
+    ></app-tasks>
+  </ul>
+</main>
+<router-outlet />
